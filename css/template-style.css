@@ -502,7 +502,7 @@ footer p, footer a:visited, footer a, footer a:hover {
 	font-size: 0.8em;
 }
 
-.carousel-item img{
+#testimonials .carousel-item img{
 	width: auto;
 	margin-left: 45%;
 	margin-bottom: 3rem;
