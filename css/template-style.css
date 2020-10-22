@@ -501,6 +501,64 @@ footer p, footer a:visited, footer a, footer a:hover {
 	color: #6c7c84;
 	font-size: 0.8em;
 }
+
+.carousel-item img{
+	width: auto;
+	margin-left: 45%;
+	margin-bottom: 3rem;
+}
+
+#testimonials .section-title{
+	margin: 2rem 0 1.25em !important;
+}
+
+#testimonials .section-title{
+	margin-bottom: 0em !important;
+}
+
+#testimonials .col{
+	margin: 0 auto;
+	margin-bottom: 3rem;
+}
+
+#testimonials .row{
+	width: 58.3333%;
+	margin: auto;
+}
+
+h2.section-title:after {
+		background: #e83030 none repeat scroll 0 0 !important;
+}
+
+.carousel-indicators li {
+	background-color: #7d7979 !important;
+}
+
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+		color: #B6C900 !important;
+}
+
+@media screen and (max-width: 480px) {
+  #topbar {
+  	line-height: 1.625em;
+  	text-align: center;
+  }
+  .social.right {
+  	float: none;
+  }
+  p.logo, p.nav-text {
+  	text-align: center;
+	}
+	
+	.carousel-item img {
+		margin-left: 30%;
+	}
+
+	#testimonials .section-title {
+		margin-left: -5rem!important;
+	}
+}
+
 @media screen and (max-width: 768px) {
   header {
   	position: relative;
@@ -523,17 +581,5 @@ footer p, footer a:visited, footer a, footer a:hover {
   }
   #about-us article {
   	padding: 4em 2.5em;
-  }
-}
-@media screen and (max-width: 480px) {
-  #topbar {
-  	line-height: 1.625em;
-  	text-align: center;
-  }
-  .social.right {
-  	float: none;
-  }
-  p.logo, p.nav-text {
-  	text-align: center;
   }
 }
